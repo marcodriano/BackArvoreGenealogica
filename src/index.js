@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Configura o CORS
 app.use(cors({
-  origin: 'https://front-arvore-genealogica-ongixl7vw.vercel.app', // Permite requisições do frontend
+  origin: 'https://front-arvore-genealogica.vercel.app/', // Permite requisições do frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Cabeçalhos permitidos
 }));
