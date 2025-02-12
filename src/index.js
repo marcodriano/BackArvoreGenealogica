@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Configura o CORS
 app.use(cors({
-  origin: 'https://front-arvore-genealogica.vercel.app/', // Permite requisições do frontend
+  origin: 'https://https://vercel.com/marcos-adrianos-projects-e0797665/front-arvore-genealogica/AMXySpsS2B8t56gGrJBv6RvqHBpM', // Permite requisições do frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Cabeçalhos permitidos
 }));
